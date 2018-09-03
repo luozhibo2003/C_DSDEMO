@@ -8,6 +8,7 @@ extern int SequenceList_main();
 
 extern int Union_main_test();
 extern int MergeSqList_main_test();
+extern int SinglyLinkedList_main_test();
 
 int main() {
     printf("Hello, World!\n");
@@ -28,8 +29,9 @@ int main() {
 
 
     //顺序表归并相关函数测试
-    MergeSqList_main_test();
+    //MergeSqList_main_test();
 
+    SinglyLinkedList_main_test();
 
     return 0;
 }

@@ -12,6 +12,7 @@
 
 #include <stdio.h>
 #include "SequenceList.h"    //**▲02 线性表**//
+#include "../01 introduction/Status.h"         //**▲01 绪论**//
 
 /* 测试调用的函数原型 */
 Status CmpGreater(LElemType_Sq e,LElemType_Sq data);
@@ -140,7 +141,7 @@ Status CmpGreater(LElemType_Sq e, LElemType_Sq data)
     return data>e ? TRUE : FALSE;
 }
 
-void PrintElem(LElemType_Sq e)
-{
-    printf("%d ", e);
-}
+//void PrintElem(LElemType_Sq e)
+//{
+//    printf("%d ", e);
+//}
