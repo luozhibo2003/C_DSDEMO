@@ -6,6 +6,8 @@ extern int malloc_demo_test();
 
 extern int SequenceList_main();
 
+extern int Union_main_test();
+
 int main() {
     printf("Hello, World!\n");
 
@@ -18,7 +20,10 @@ int main() {
     //malloc测试函数
     //malloc_demo_test();
 
-    SequenceList_main();
+    //SequenceList_main();
+
+    //求并集相关函数测试
+    Union_main_test();
 
 
     return 0;
