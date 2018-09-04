@@ -6,6 +6,7 @@ extern int hello_main();
 extern int va_start_sum(int num_args, ...);
 extern int malloc_demo_test();
 extern int struct_main_test();
+extern int link_main_test();
 
 extern int SequenceList_main();
 
@@ -20,7 +21,9 @@ int main() {
     //宏测试
     //hello_main();
     //结构体测试
-    struct_main_test();
+    //struct_main_test();
+    //静态链表
+    link_main_test();
 
     //va_start 测试
     //printf("10、20 和 30 的和 = %d \n", va_start_sum(3, 10, 20, 30));
